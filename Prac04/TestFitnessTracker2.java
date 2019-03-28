@@ -7,7 +7,7 @@ public class TestFitnessTracker2
 
         System.out.println(exercise1.getFitnessActivity() + " " + exercise1.getMinutes() +
                 " minutes on " + exercise1.getDate());
-        
+
 
         LocalDate date = LocalDate.of(2019, 3, 28);
 
