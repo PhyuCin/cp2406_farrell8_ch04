@@ -10,6 +10,9 @@ public class FitnessTracker {
             minutes = 0;
             date = LocalDate.of(2019, 1, 1);
         }
+
+        // exercise 3a
+
     public FitnessTracker(String a, int m, LocalDate d)
     {
         fitnessActivity = a;

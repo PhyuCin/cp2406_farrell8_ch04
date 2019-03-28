@@ -8,7 +8,7 @@ public class TestFitnessTracker {
         System.out.println(exercise1.getFitnessActivity() + " " + exercise1.getMinutes() +
                 " minutes on " + exercise1.getDate());
 
-
+        // overload the constructor
         LocalDate date = LocalDate.of(2019, 3, 28);
 
         FitnessTracker exercise2 = new FitnessTracker("Swimming", 20, date);
