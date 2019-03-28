@@ -4,5 +4,10 @@ public class TestBloodData {
         System.out.println("Harry is blood type " + harry.getBlood() + harry.getRhFactor());
         BloodData suzy = new BloodData("AB", "-" );
         System.out.println("Suzy is blood type " + suzy.getBlood() + suzy.getRhFactor());
+
+        suzy.setBlood("A");
+        suzy.setRhFactor("+");
+
+        System.out.println("Suzy is blood type " + suzy.getBlood() + suzy.getRhFactor());
     }
 }

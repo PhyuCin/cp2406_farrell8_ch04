@@ -17,8 +17,8 @@ public class BloodData {
         blood = b;
     }
 
-    public void setrhFactor(String rh){
-        blood = rh;
+    public void setRhFactor(String rh){
+        rhFactor= rh;
     }
 
     public String getBlood(){
