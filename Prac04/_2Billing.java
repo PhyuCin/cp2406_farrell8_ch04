@@ -1,4 +1,4 @@
-public class Billing {
+public class _2Billing {
 
     public static double computeBill(double price){
         return price * 1.08;

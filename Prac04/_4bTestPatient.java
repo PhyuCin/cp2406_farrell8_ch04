@@ -1,11 +1,11 @@
-public class TestPatient {
+public class _4bTestPatient {
 
     public static void main(String[] args){
-        Patient harry = new Patient();
+        _4bPatient harry = new _4bPatient();
         System.out.println(harry.getId() +" - Age " + harry.getAge() + " - Blood Type " + harry.bloodData.getBlood() +
                 harry.bloodData.getRhFactor());
 
-        Patient suzy = new Patient(1, 23, "B", "-");
+        _4bPatient suzy = new _4bPatient(1, 23, "B", "-");
         System.out.println(suzy.getId() +" - Age " + suzy.getAge() + " - Blood Type " + suzy.bloodData.getBlood() +
                 suzy.bloodData.getRhFactor());
 

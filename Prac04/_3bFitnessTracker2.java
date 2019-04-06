@@ -1,17 +1,17 @@
 import java.time.*;
 
-public class FitnessTracker2 {
+public class _3bFitnessTracker2 {
     String fitnessActivity;
     int minutes;
     LocalDate date;
 
-    public FitnessTracker2(){
+    public _3bFitnessTracker2(){
         this("Swimming", 30, LocalDate.of(2019, 3, 28));
     }
 
     // exercise 3a
 
-    public FitnessTracker2(String a, int m, LocalDate d)
+    public _3bFitnessTracker2(String a, int m, LocalDate d)
     {
         fitnessActivity = a;
         minutes = m;

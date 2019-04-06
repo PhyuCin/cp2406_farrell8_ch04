@@ -1,9 +1,9 @@
-public class Bread {
+public class _5aBread {
     public String breadType;
     public int caloriesPerSlice;
     public final static String MOTTO = "The staff of life";
 
-    public Bread(String breadType, int caloriesPerSlice){
+    public _5aBread(String breadType, int caloriesPerSlice){
         this.breadType = breadType;
         this.caloriesPerSlice = caloriesPerSlice;
 

@@ -1,8 +1,8 @@
-public interface TestSandwichFilling {
+public interface _5bTestSandwichFilling {
     public static void main(String[] args){
-        SandwichFilling eggSalad = new SandwichFilling("Egg Salad", 20);
-        SandwichFilling peanutButter = new SandwichFilling("Peanut Butter", 15);
-        SandwichFilling kaya = new SandwichFilling("Kaya", 13);
+        _5bSandwichFilling eggSalad = new _5bSandwichFilling("Egg Salad", 20);
+        _5bSandwichFilling peanutButter = new _5bSandwichFilling("Peanut Butter", 15);
+        _5bSandwichFilling kaya = new _5bSandwichFilling("Kaya", 13);
 
         System.out.println("Type: " + eggSalad.getFillingType() + ", Calories in a serving: " +
                 eggSalad.getCaloriesInAServing());

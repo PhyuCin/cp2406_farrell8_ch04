@@ -1,11 +1,11 @@
 import java.time.*;
 
-public class FitnessTracker {
+public class _3aFitnessTracker {
         String fitnessActivity;
         int minutes;
         LocalDate date;
 
-        public FitnessTracker(){
+        public _3aFitnessTracker(){
             fitnessActivity = "Running";
             minutes = 0;
             date = LocalDate.of(2019, 1, 1);
@@ -13,7 +13,7 @@ public class FitnessTracker {
 
         // exercise 3a
 
-    public FitnessTracker(String a, int m, LocalDate d)
+    public _3aFitnessTracker(String a, int m, LocalDate d)
     {
         fitnessActivity = a;
         minutes = m;

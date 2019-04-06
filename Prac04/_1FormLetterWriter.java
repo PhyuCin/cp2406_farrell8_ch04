@@ -1,4 +1,4 @@
-public class FormLetterWriter {
+public class _1FormLetterWriter {
 
     public static void displaySalutation(String lastName){
         System.out.println("\nDear Mr. or Ms. " + lastName + ",");

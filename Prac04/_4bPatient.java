@@ -1,18 +1,18 @@
-public class Patient {
+public class _4bPatient {
     int id;
     int age;
-    BloodData bloodData;
+    _4aBloodData bloodData;
 
-    public Patient(){
+    public _4bPatient(){
         id = 0;
         age = 0;
-        bloodData = new BloodData();
+        bloodData = new _4aBloodData();
     }
 
-    public Patient(int id , int age, String blood, String rhFactor){
+    public _4bPatient(int id , int age, String blood, String rhFactor){
         this.id = id;
         this.age = age;
-        bloodData = new BloodData(blood, rhFactor);
+        bloodData = new _4aBloodData(blood, rhFactor);
     }
 
     public int getId(){

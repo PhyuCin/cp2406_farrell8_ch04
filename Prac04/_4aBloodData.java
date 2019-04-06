@@ -1,13 +1,13 @@
-public class BloodData {
+public class _4aBloodData {
     String blood;
     String rhFactor;
 
-    public BloodData(){
+    public _4aBloodData(){
         blood = "O";
         rhFactor = "+";
     }
 
-    public BloodData(String blood, String rhFactor)
+    public _4aBloodData(String blood, String rhFactor)
     {
         this.blood = blood;
         this.rhFactor = rhFactor;

@@ -1,8 +1,8 @@
-public class SandwichFilling {
+public class _5bSandwichFilling {
     public String fillingType;
     public int caloriesInAServing;
 
-    public SandwichFilling(String fillingType, int caloriesInAServing){
+    public _5bSandwichFilling(String fillingType, int caloriesInAServing){
         this.fillingType = fillingType;
         this.caloriesInAServing = caloriesInAServing;
     }
